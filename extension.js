@@ -1,23 +1,17 @@
 const Main = imports.ui.main;
 const GLib = imports.gi.GLib;
 const Util = imports.misc.util;
-const Tweener = imports.ui.tweener;
 const Mainloop = imports.mainloop;
 const Lang = imports.lang;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 const Convenience = Me.imports.convenience;
-const ByteArray = imports.byteArray;
 
 var settings, obj, signalHandlerID;
 var timer = null;
 
 function init() {
     settings = Convenience.getSettings();
-}
-
-function byteArrayToString (array) {
-    return array instanceof Uint8Array ? ByteArray.toString (array):array;
 }
 
 function executeShellCommand() {
@@ -32,7 +26,7 @@ function executeShellCommand() {
     var rInt = settings.get_int ("refresh-interval");
 
     if (res[0]) {
-    	resText = byteArrayToString(res[1]).toString().split("\n")[0];
+    	resText = Convenience.byteArrayToString(res[1]).toString().split("\n")[0];
     }
 
     obj.set_text(resText);

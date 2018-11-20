@@ -1,10 +1,14 @@
 /* -*- mode: js; js-basic-offset: 4; indent-tabs-mode: nil -*- */
 
+const ByteArray = imports.byteArray;
 const Gettext = imports.gettext;
 const Gio = imports.gi.Gio;
-
 const Config = imports.misc.config;
 const ExtensionUtils = imports.misc.extensionUtils;
+
+function byteArrayToString (array) {
+    return array instanceof Uint8Array ? ByteArray.toString (array):array;
+}
 
 /**
  * initTranslations:
