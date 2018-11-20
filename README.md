@@ -1,6 +1,6 @@
 # Shell Clock - Gnome Shell Extension
 
-Execute shell command and display the output in the clock area.
+Executes any shell command and display the output in clock area.
 
 ## Example Commands
 
@@ -28,4 +28,4 @@ Open Tweaks and activate the extension.
 
 ## Credits
 
-Heavily based on Stuart Langridge's Clock Override extension: https://github.com/stuartlangridge/gnome-shell-clock-override 
+This extension heavily based on Stuart Langridge's Clock Override extension: https://github.com/stuartlangridge/gnome-shell-clock-override 
