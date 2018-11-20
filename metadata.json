@@ -1,0 +1,13 @@
+{
+  "description": "Shell command result on clock.",
+  "name": "Shell Clock",
+  "settings-schema": "org.gnome.shell.extensions.shell-clock",
+  "shell-version": [
+    "3.18",
+    "3.28",
+    "3.30"
+  ],
+  "url": "https://www.muratcileli.com/",
+  "uuid": "shell-clock@muratcileli.com",
+  "version": 1
+}

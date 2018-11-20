@@ -1,0 +1,14 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.shell-clock" path="/org/gnome/shell/extensions/shell_clock/">
+    <key name="shell-command" type="s">
+      <default>'echo "Hello Shell Clock!"'</default>
+      <summary>Shell Command</summary>
+      <description>Shell command to display output.</description>
+   </key>
+	<key name="refresh-interval" type="i">
+      <default>0</default>
+      <summary>Refresh interval in seconds</summary>
+      <description>Refresh interval in seconds.</description>
+   </key>
+  </schema>
+</schemalist>
