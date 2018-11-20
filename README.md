@@ -11,10 +11,10 @@ Current user:
 `whoami`
 
 OpenGL vendor:
-`glxinfo | grep -i "opengl vendor" | cut -d: -f 2`
+`bash -c "glxinfo | grep -i "opengl vendor" | cut -d: -f 2"`
 
 CPU temperature:
-`sensors | grep -i "Package id 0" | cut -d: -f2`
+`bash -c "sensors | grep -i "Package id 0" | cut -d: -f2"`
 
 ## Installation
 
