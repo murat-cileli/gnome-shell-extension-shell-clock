@@ -2,7 +2,7 @@
 
 Executes any shell command and display the output in clock area.
 
-![shell-clock-screenshot](/uploads/3847ef1ac8895ac258d68344c0c12493/2018-11-22_12-12.png)
+![2018-11-22_12-34](/uploads/210291a83beae256da8ad82156bfc142/2018-11-22_12-34.png)
 
 ![shell-clock-settings](/uploads/058be2afd2987812aec2d1794a6683d1/shell-clock-settings.png)
 
