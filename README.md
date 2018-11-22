@@ -4,7 +4,7 @@ Executes any shell command and display the output in clock area.
 
 ![shell-clock-screenshot](/uploads/3847ef1ac8895ac258d68344c0c12493/2018-11-22_12-12.png)
 
-![shell-clock-options](/uploads/90d7d2d91f11d331ab1184c26bd0d02f/shell-clock-options.png)
+![shell-clock-settings](/uploads/058be2afd2987812aec2d1794a6683d1/shell-clock-settings.png)
 
 ## Example Commands
 
