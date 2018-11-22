@@ -4,6 +4,8 @@ Executes any shell command and display the output in clock area.
 
 ![shell-clock-screenshot](/uploads/3847ef1ac8895ac258d68344c0c12493/2018-11-22_12-12.png)
 
+![shell-clock-options](/uploads/90d7d2d91f11d331ab1184c26bd0d02f/shell-clock-options.png)
+
 ## Example Commands
 
 Kernel version:
