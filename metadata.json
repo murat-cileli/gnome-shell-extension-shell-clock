@@ -3,7 +3,6 @@
   "name": "Shell Clock",
   "settings-schema": "org.gnome.shell.extensions.shell-clock",
   "shell-version": [
-    "3.18",
     "3.28",
     "3.30"
   ],

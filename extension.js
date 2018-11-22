@@ -1,6 +1,5 @@
 const Main = imports.ui.main;
 const GLib = imports.gi.GLib;
-const Util = imports.misc.util;
 const Mainloop = imports.mainloop;
 const Lang = imports.lang;
 const ExtensionUtils = imports.misc.extensionUtils;
@@ -19,14 +18,14 @@ function executeShellCommand() {
     var cmd = settings.get_string("shell-command");
 
     if (cmd.trim() == '') {
-        return
+        return;
     }
 
     var res = GLib.spawn_command_line_sync(cmd);
-    var rInt = settings.get_int ("refresh-interval");
+    var rInt = settings.get_int("refresh-interval");
 
     if (res[0]) {
-    	resText = Convenience.byteArrayToString(res[1]).toString().split("\n")[0];
+        resText = Convenience.byteArrayToString(res[1]).toString().split("\n")[0];
     }
 
     obj.set_text(resText);
@@ -49,8 +48,10 @@ function enable() {
         return;
     }
 
-    statusArea.dateMenu.actor.first_child.get_children().forEach(function(children) {
-        if (children.get_text && !obj) { obj = children; }
+    statusArea.dateMenu.actor.first_child.get_children().forEach(function (children) {
+        if (children.get_text && !obj) {
+            obj = children;
+        }
     });
 
     if (!obj) {
