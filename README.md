@@ -2,6 +2,8 @@
 
 Executes any shell command and display the output in clock area.
 
+![shell-clock-screenshot](/uploads/3847ef1ac8895ac258d68344c0c12493/2018-11-22_12-12.png)
+
 ## Example Commands
 
 Kernel version:
