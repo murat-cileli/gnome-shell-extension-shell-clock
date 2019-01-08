@@ -2,9 +2,9 @@
 
 Executes any shell command and display the output in clock area.
 
-![2018-11-22_12-34](/uploads/210291a83beae256da8ad82156bfc142/2018-11-22_12-34.png)
+![2018-11-22_12-34](https://user-images.githubusercontent.com/6532000/50812026-214cae00-1322-11e9-84ca-5fb2543c8efd.png)
 
-![shell-clock-settings](/uploads/058be2afd2987812aec2d1794a6683d1/shell-clock-settings.png)
+![shell-clock-settings](https://user-images.githubusercontent.com/6532000/50812049-2c074300-1322-11e9-8b82-f232f6517596.png)
 
 ## Example Commands
 
