@@ -33,3 +33,5 @@ Open Tweaks and activate the extension.
 ## Credits
 
 This extension heavily based on Stuart Langridge's Clock Override extension: https://github.com/stuartlangridge/gnome-shell-clock-override 
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40murat_cileli)](https://twitter.com/murat_cileli)
